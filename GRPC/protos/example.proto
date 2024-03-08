@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+package fc;
+
+
+service Factorization {
+ 
+  rpc  CalFactor(FacRequest) returns (FacReply) {}
+
+}
+
+
+message FacRequest {
+  int32 res = 1;
+}
+
+
+message FacReply {
+  int64 res = 1;
+}
+
+
+
