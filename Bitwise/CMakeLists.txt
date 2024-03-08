@@ -4,5 +4,4 @@ add_compile_options(-std=c++14)
 set(CMAKE_CXX_STANDARD 14)
 
 
-add_executable(1_bitwise Bitwise/1_bitwise.cpp)
-# add_executable(client src/client.cpp)
+add_executable(1_bitwise 1_bitwise.cpp)
